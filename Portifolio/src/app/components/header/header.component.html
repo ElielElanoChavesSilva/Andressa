@@ -1,0 +1,6 @@
+<mat-toolbar class="header">
+  <span>
+    <p (click)="switchPage('me')" [class.active]="currentPage === 'me'">Sobre Mim</p>
+    <p (click)="switchPage('cursos')" [class.active]="currentPage === 'cursos'">Cursos</p>
+  </span>
+</mat-toolbar>

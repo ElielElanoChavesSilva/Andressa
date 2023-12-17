@@ -1,0 +1,52 @@
+main {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: 'Cormorant Unicase';
+  font-weight: 500;
+  font-size: 33px;
+  margin-bottom: 40px;
+}
+
+p {
+  margin: 0 !important;
+  font-family: 'Nunito';
+}
+
+h3 {
+  margin: 0 !important;
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.educacao {
+  display: grid;
+  width: 35%;
+  padding: 10px;
+  box-shadow: 1px 0px #0000001a;
+}
+
+.cursos {
+  width: 35%;
+  padding: 10px;
+  display: grid;
+}
+
+.descricao {
+  display: flex;
+}
+
+.PR{
+  padding-right: 20px;
+}
+
+mat-icon {
+  vertical-align: middle !important;
+  font-size: 10px;
+  margin-top: 7px !important;
+}

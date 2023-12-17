@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+* {
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Cormorant+Unicase:wght@300;400;500;600&family=Nunito:wght@400;500;600;700&family=Trirong:wght@200;300;700;800&display=swap');
+
+.DF {
+  display: flex;
+}
